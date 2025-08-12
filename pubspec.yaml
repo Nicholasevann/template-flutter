@@ -1,0 +1,48 @@
+name: example
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.2.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  slang: ^3.26.0
+  slang_flutter: ^3.26.1
+
+  flutter_localizations:
+    sdk: flutter
+  auto_route: ^7.8.4
+  get_it: ^7.6.4
+  flutter_riverpod: ^2.4.9
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+  dio: ^5.4.0
+  google_fonts: ^6.1.0
+  qr_flutter: ^4.1.0
+  dartz: ^0.10.1
+  equatable: ^2.0.5
+  cached_network_image: ^3.3.0
+  flutter_launcher_icons: ^0.14.4
+  shared_preferences: ^2.5.3
+  toastification: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  freezed: ^2.4.5
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.7
+  slang_build_runner: ^3.26.1
+  auto_route_generator: ^7.3.2
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/app-icon.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true

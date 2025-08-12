@@ -1,0 +1,38 @@
+{
+    "login": {
+        "title": "Welcome to Bali Discount",
+        "subtitle": "Get your discount right away",
+        "no_account": "Don't have an account?"
+    },
+    "register": {
+        "title": "Create Your Account",
+        "subtitle": "Get your discount right away",
+        "have_account": "Already have an account?"
+    },
+    "textfield": {
+        "fullname": {
+            "label": "Fullname",
+            "hint": "Input your full name",
+            "error": "Full name must not empty"
+        },
+        "email": {
+            "label": "Email",
+            "hint": "Input your email",
+            "error": "Email is not valid"
+        },
+        "password": {
+            "label": "Password",
+            "hint": "Input your password",
+            "error": "Password is not valid"
+        },
+        "password_confirm": {
+            "label": "Confirm Password",
+            "hint": "Input your confirmation password",
+            "error": "Confirmation password is not valid"
+        }
+    },
+    "button": {
+        "login":"Log In",
+        "register": "Register"
+    }
+}
