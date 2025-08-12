@@ -344,7 +344,7 @@ class _StringsLoginId implements _StringsLoginEn {
 
   // Translations
   @override
-  String get title => 'Welcome to Bali Discount';
+  String get title => 'Welcome to Example';
   @override
   String get subtitle => 'Get your discount right away';
   @override
@@ -517,7 +517,7 @@ class _StringsLoginRu implements _StringsLoginEn {
 
   // Translations
   @override
-  String get title => 'Welcome to Bali Discount';
+  String get title => 'Welcome to Example';
   @override
   String get subtitle => 'Get your discount right away';
   @override
@@ -647,7 +647,7 @@ extension on Translations {
   dynamic _flatMapFunction(String path) {
     switch (path) {
       case 'login.title':
-        return 'Welcome to Bali Discount';
+        return 'Welcome to Example';
       case 'login.subtitle':
         return 'Get your discount right away';
       case 'login.no_account':
@@ -696,7 +696,7 @@ extension on _StringsId {
   dynamic _flatMapFunction(String path) {
     switch (path) {
       case 'login.title':
-        return 'Welcome to Bali Discount';
+        return 'Welcome to Example';
       case 'login.subtitle':
         return 'Get your discount right away';
       case 'login.no_account':
@@ -745,7 +745,7 @@ extension on _StringsRu {
   dynamic _flatMapFunction(String path) {
     switch (path) {
       case 'login.title':
-        return 'Welcome to Bali Discount';
+        return 'Welcome to Example';
       case 'login.subtitle':
         return 'Get your discount right away';
       case 'login.no_account':
