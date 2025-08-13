@@ -1,5 +1,4 @@
-import 'package:example/core/index.dart';
-import 'package:example/shared/index.dart';
+import 'package:boneconsulting/core/index.dart';
 import 'package:flutter/material.dart';
 import 'package:toastification/toastification.dart';
 

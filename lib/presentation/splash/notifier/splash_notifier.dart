@@ -1,4 +1,4 @@
-import 'package:example/presentation/splash/notifier/splash_state.dart';
+import 'package:boneconsulting/presentation/splash/notifier/splash_state.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class SplashNotifier extends StateNotifier<SplashState> {

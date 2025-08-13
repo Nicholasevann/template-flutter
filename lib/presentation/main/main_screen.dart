@@ -1,7 +1,7 @@
 import 'package:auto_route/auto_route.dart';
-import 'package:example/presentation/main/account/account_screen.dart';
-import 'package:example/presentation/main/category/category_screen.dart';
-import 'package:example/presentation/main/home/home_screen.dart';
+import 'package:boneconsulting/presentation/main/account/account_screen.dart';
+import 'package:boneconsulting/presentation/main/category/category_screen.dart';
+import 'package:boneconsulting/presentation/main/home/home_screen.dart';
 import 'package:flutter/material.dart';
 
 const List<Widget> screens = <Widget>[

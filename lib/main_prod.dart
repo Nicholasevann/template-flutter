@@ -1,5 +1,5 @@
-import 'package:example/core/index.dart';
-import 'package:example/presentation/main_app.dart';
+import 'package:boneconsulting/core/index.dart';
+import 'package:boneconsulting/presentation/main_app.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -10,9 +10,9 @@ void main() async {
   LocaleSettings.useDeviceLocale();
   await di.init(
     appConfig: AppConfig(
-      title: 'Example Production',
+      title: 'Xperience Production',
       flavor: Flavor.PROD,
-      dio: Dio(BaseOptions(baseUrl: 'https://example.com')),
+      dio: Dio(BaseOptions(baseUrl: 'https://api.boneconsulting.com/api/v1')),
     ),
   );
   runApp(TranslationProvider(child: const ProviderScope(child: MainApp())));

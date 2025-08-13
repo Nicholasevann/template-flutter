@@ -1,7 +1,7 @@
-import 'package:example/core/index.dart';
-import 'package:example/data/models/country/country_model.dart';
-import 'package:example/presentation/auth/register/notifier/register_notifier.dart';
-import 'package:example/shared/index.dart';
+import 'package:boneconsulting/core/index.dart';
+import 'package:boneconsulting/data/models/country/country_model.dart';
+import 'package:boneconsulting/presentation/auth/register/notifier/register_notifier.dart';
+import 'package:boneconsulting/shared/index.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 

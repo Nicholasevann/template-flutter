@@ -1,8 +1,8 @@
 import 'dart:developer';
 
-import 'package:example/data/models/country/country_model.dart';
-import 'package:example/data/repositories/remote/country_repository.dart';
-import 'package:example/presentation/auth/register/notifier/register_state.dart';
+import 'package:boneconsulting/data/models/country/country_model.dart';
+import 'package:boneconsulting/data/repositories/remote/country_repository.dart';
+import 'package:boneconsulting/presentation/auth/register/notifier/register_state.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class RegisterNotifier extends StateNotifier<RegisterState> {

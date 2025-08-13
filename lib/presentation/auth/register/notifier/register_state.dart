@@ -1,4 +1,4 @@
-import 'package:example/data/models/country/country_model.dart';
+import 'package:boneconsulting/data/models/country/country_model.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'register_state.freezed.dart';

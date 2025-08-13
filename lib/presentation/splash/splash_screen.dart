@@ -1,5 +1,5 @@
 import 'package:auto_route/auto_route.dart';
-import 'package:example/core/index.dart';
+import 'package:boneconsulting/core/index.dart';
 import 'package:flutter/material.dart';
 
 @RoutePage()
@@ -15,14 +15,21 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
     Future.delayed((const Duration(seconds: 2)), () {
-      AutoRouter.of(context).push(const LoginRoute());
+      AutoRouter.of(context).push(const OnboardingRoute());
     });
   }
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(child: Icon(Icons.holiday_village, size: 100)),
+    return Scaffold(
+      backgroundColor: AppColor.black,
+      body: Center(
+        child: Image.asset(
+          'assets/icon/logo-splash.png',
+          width: 180,
+          height: 180,
+        ),
+      ),
     );
   }
 }

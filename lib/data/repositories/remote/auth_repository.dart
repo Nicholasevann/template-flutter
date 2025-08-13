@@ -1,7 +1,7 @@
-import 'package:example/core/app_service.dart';
-import 'package:example/data/models/auth/user_model.dart';
-import 'package:example/shared/index.dart';
-import 'package:example/shared/models/single_response.dart';
+import 'package:boneconsulting/core/app_service.dart';
+import 'package:boneconsulting/data/models/auth/user_model.dart';
+import 'package:boneconsulting/shared/index.dart';
+import 'package:boneconsulting/shared/models/single_response.dart';
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
 

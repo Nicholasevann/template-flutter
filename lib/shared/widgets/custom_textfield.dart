@@ -1,4 +1,4 @@
-import 'package:example/core/index.dart';
+import 'package:boneconsulting/core/index.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

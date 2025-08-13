@@ -1,5 +1,5 @@
-import 'package:example/core/app_service.dart';
-import 'package:example/core/enum/enum.dart';
+import 'package:boneconsulting/core/app_service.dart';
+import 'package:boneconsulting/core/enum/enum.dart';
 
 class SessionRepository {
   /// Shared preferences key

@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
-import 'package:example/core/index.dart';
+import 'package:boneconsulting/core/index.dart';
 
 final sl = GetIt.instance;
 

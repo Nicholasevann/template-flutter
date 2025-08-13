@@ -1,4 +1,4 @@
-import 'package:example/core/theme/app_font.dart';
+import 'package:boneconsulting/core/theme/app_font.dart';
 import 'package:flutter/material.dart';
 
 class CustomLabel extends StatelessWidget {

@@ -1,0 +1,2 @@
+/Users/Imam/Documents/project/boneconsulting-mobile/android/app/.cxx/RelWithDebInfo/6p6v5v52/x86_64/CMakeFiles/edit_cache.dir
+/Users/Imam/Documents/project/boneconsulting-mobile/android/app/.cxx/RelWithDebInfo/6p6v5v52/x86_64/CMakeFiles/rebuild_cache.dir

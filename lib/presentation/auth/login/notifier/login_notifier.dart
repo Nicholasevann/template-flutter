@@ -1,10 +1,6 @@
-import 'package:example/core/app_service.dart';
-import 'package:example/core/index.dart';
-import 'package:example/core/utils/toast_utils.dart';
-import 'package:example/data/repositories/remote/auth_repository.dart';
+import 'package:boneconsulting/data/repositories/remote/auth_repository.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:auto_route/auto_route.dart';
 import 'login_state.dart';
 
 final loginProvider = StateNotifierProvider<LoginNotifier, LoginState>(

@@ -1,7 +1,7 @@
 import 'package:auto_route/auto_route.dart';
-import 'package:example/core/index.dart';
-import 'package:example/presentation/auth/login/notifier/login_notifier.dart';
-import 'package:example/shared/index.dart';
+import 'package:boneconsulting/core/index.dart';
+import 'package:boneconsulting/presentation/auth/login/notifier/login_notifier.dart';
+import 'package:boneconsulting/shared/index.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -43,6 +43,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
     final state = ref.watch(loginProvider);
     final event = ref.read(loginProvider.notifier);
     return Scaffold(
+      backgroundColor: AppColor.white,
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -145,27 +146,27 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                         }
                       },
                     ),
-                    const SizedBox(height: 16),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Text(t.login.no_account, style: styleParagraph1),
-                        InkWell(
-                          onTap: () {
-                            AutoRouter.of(context).push(const RegisterRoute());
-                          },
-                          child: Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Text(
-                              t.button.register,
-                              style: styleParagraph1Bold.copyWith(
-                                color: AppColor.primary,
-                              ),
-                            ),
-                          ),
-                        ),
-                      ],
-                    )
+                    // const SizedBox(height: 16),
+                    // Row(
+                    //   mainAxisAlignment: MainAxisAlignment.center,
+                    //   children: [
+                    //     Text(t.login.no_account, style: styleParagraph1),
+                    //     InkWell(
+                    //       onTap: () {
+                    //         AutoRouter.of(context).push(const RegisterRoute());
+                    //       },
+                    //       child: Padding(
+                    //         padding: const EdgeInsets.all(8.0),
+                    //         child: Text(
+                    //           t.button.register,
+                    //           style: styleParagraph1Bold.copyWith(
+                    //             color: AppColor.primary,
+                    //           ),
+                    //         ),
+                    //       ),
+                    //     ),
+                    //   ],
+                    // )
                   ],
                 ),
               ),

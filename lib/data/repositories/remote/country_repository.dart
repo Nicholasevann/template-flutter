@@ -1,5 +1,5 @@
-import 'package:example/data/models/country/country_model.dart';
-import 'package:example/shared/index.dart';
+import 'package:boneconsulting/data/models/country/country_model.dart';
+import 'package:boneconsulting/shared/index.dart';
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
 

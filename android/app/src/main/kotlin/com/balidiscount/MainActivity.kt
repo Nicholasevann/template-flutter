@@ -1,4 +1,4 @@
-package com.example
+package com.boneconsulting
 
 import io.flutter.embedding.android.FlutterActivity
 
