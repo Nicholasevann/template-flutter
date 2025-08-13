@@ -10,11 +10,9 @@ void main() async {
   LocaleSettings.useDeviceLocale();
   await di.init(
     appConfig: AppConfig(
-      title: 'Xperience Dev',
-      flavor: Flavor.DEV,
-      dio: Dio(BaseOptions(
-          baseUrl: 'https://staging-api.boneconsulting.com/api/v1')),
-    ),
+        title: 'Xperience Dev',
+        flavor: Flavor.DEV,
+        baseUrl: 'https://staging-api.boneconsulting.com/api/v1'),
   );
   runApp(TranslationProvider(child: const ProviderScope(child: MainApp())));
 }

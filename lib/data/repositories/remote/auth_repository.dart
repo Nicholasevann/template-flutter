@@ -52,11 +52,11 @@ class AuthRepository {
         payload['provider'] = provider;
       } else {
         // Normal login with email/password
-        payload['email'] = email;
+        payload['uid'] = email;
         payload['password'] = password;
       }
 
-      final response = await dio.post('auth/mobile/login', data: payload);
+      final response = await dio.post('/login', data: payload);
       return Right(
         SingleResponse<UserModel>.fromJson(
           response.data,
