@@ -7,7 +7,7 @@ class AuthInterceptor extends Interceptor {
     RequestOptions options,
     RequestInterceptorHandler handler,
   ) async {
-    final token = await AppService.session.getToken();
+    final token = AppService.session.getToken();
     options.headers['Authorization'] = 'Bearer $token';
     super.onRequest(options, handler);
   }

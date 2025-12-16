@@ -68,7 +68,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
             children: [
               // Title and subtitle at the top
               Padding(
-                padding: EdgeInsets.symmetric(horizontal: 12),
+                padding: const EdgeInsets.symmetric(horizontal: 12),
                 child: SafeArea(
                   child: Column(
                     children: [
@@ -147,8 +147,9 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                                   hint: t.textfield.email.label,
                                   inputType: TextInputType.emailAddress,
                                   validator: (val) {
-                                    if (!val!.isNotEmpty)
+                                    if (!val!.isNotEmpty) {
                                       return t.textfield.email.error;
+                                    }
                                     return null;
                                   },
                                 ),
@@ -233,7 +234,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                                         }
                                       },
                                       borderRadius: BorderRadius.circular(16),
-                                      child: Center(
+                                      child: const Center(
                                         child: Text(
                                           'Sign in',
                                           style: TextStyle(

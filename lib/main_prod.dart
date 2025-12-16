@@ -1,6 +1,5 @@
 import 'package:boneconsulting/core/index.dart';
 import 'package:boneconsulting/presentation/main_app.dart';
-import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'injector.dart' as di;

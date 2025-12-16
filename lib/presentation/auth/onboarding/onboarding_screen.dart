@@ -269,7 +269,7 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
                                   style: TextButton.styleFrom(
                                     shape: RoundedRectangleBorder(
                                       borderRadius: BorderRadius.circular(25),
-                                      side: BorderSide(
+                                      side: const BorderSide(
                                         color: AppColor.primary,
                                         width: 1,
                                       ),
